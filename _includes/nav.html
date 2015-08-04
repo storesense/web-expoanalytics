@@ -1,6 +1,6 @@
 <!-- Navigation -->
 
-<nav class="navbar navbar-default navbar-fixed-top {% if include.param == 'expo' or include.param == 'storesense' %} navbar-transparent {% endif %}">
+<nav class="navbar navbar-default navbar-fixed-top {% if include.param != 'default' %}navbar-transparent{% endif %}">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
@@ -10,12 +10,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">
-                {% if include.param == "storesense" %}
-                    <img src="{{ site.baseurl }}/img/storesense_logo.png">
-                {% else %}
-                    <img src="{{ site.baseurl }}/img/expo_logo.png">
-                {% endif %}
+            <a class="navbar-brand" href="{{ site.baseurl }}">
+                <img src="{{ site.baseurl }}/img/expo_logo.png">
             </a>
         </div>
 
@@ -23,11 +19,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    {% if include.param == "storesense" %}
-                        <a href="/">Expo</a>
-                    {% else %}
-                        <a href="{{ site.baseurl }}/storesense">Storesense</a>
-                    {% endif %}
+                    <a href="http://www.storesense.info">Storesense</a>
                 </li>
 
                 <li>
