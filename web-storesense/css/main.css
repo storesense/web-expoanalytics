@@ -1,0 +1,549 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-muted {
+    color: #777;
+}
+
+p {
+    line-height: 1.75;
+}
+
+p.large {
+    font-size: 16px;
+}
+
+a {
+    color: #d1541a;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #e46425;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.no-uppercase {
+    text-transform: none;
+}
+
+.btn-xl {
+    color: #fff;
+    background-color: #d1541a;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 6px;
+    font-size: 12px;
+    padding: 15px 40px;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active {
+    background-color: #e7e7e7;
+    color: #333;
+}
+
+@media (min-width:768px) {
+    .btn-xl{
+        font-weight:700;
+        font-size:14px;
+        padding:25px 70px;
+    }
+}
+
+
+/* ---------- NAVIGATION BAR PROPERTIES ---------- */
+
+.navbar-default {
+    background-color: #65B5C3;
+    border-bottom: 0;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+/* Toggle button for menu displayed on mobile browsers */
+.navbar-default .navbar-toggle {
+    background-color: #d1541a;
+    border-color: #d1541a;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:#fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #d1541a;
+}
+
+/* Menu line */
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #20555f;
+    font-size: 13px;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    color: #d1541a;
+    outline: 0;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    color: #fff;
+    background-color: #d1541a;
+}
+
+/* Storesense expo logo */
+.navbar-default .navbar-brand img {
+    width: 120px;
+    float: left;
+    position: relative;
+    top: -10px;
+}
+
+.fixed-nav{
+    padding-top: 80px;
+}
+
+@media (min-width:768px) {
+
+    .navbar-default {
+        padding-bottom: 5px;
+        padding-top: 30px;
+        border-bottom: 1px solid #1B5862;
+    }
+
+    .navbar-transparent{
+        background-color: transparent;
+        border-bottom: 0;
+    }
+
+    .navbar-default .navbar-nav > .active > a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        background-color: #65b5c3;
+        padding-top: 30px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #1b5862;
+    }
+
+    .navbar-default .navbar-brand img {
+        width: 150px;
+        top: -20px;
+    }
+
+    .navbar-default .nav li a {
+        font-weight: 700;
+        font-size: 14px;
+    }
+}
+
+/* ---------- HEADER PROPERTIES ---------- */
+
+header{
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+}
+
+header .intro-text {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+/* ---------- SECTIONS BASE ---------- */
+
+section {
+    padding: 70px 0;
+}
+
+@media (min-width: 768px){
+    section {
+        padding: 60px 0;
+    }
+}
+
+/* ---------- FEATURES BODY PROPERTIES ---------- */
+
+section#features {
+    padding: 0;
+}
+
+/* Headings for features, followed by small rectangles */
+section h2.features-heading {
+    font-weight: 600;
+    font-size: 22px;
+    color: #1c5d6c;
+    letter-spacing: -2px;
+    text-transform: none;
+}
+
+/* Second feature heading */
+section#insights h2.features-heading {
+    color: #fff;
+}
+
+.rectangle {
+    width: 90px;
+    height: 5px;
+    background: #1c5d6c;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+.rectangle-white {
+    width: 90px;
+    height: 5px;
+    background: #fff;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+section#insights .rectangle {
+    background: #fff;
+}
+
+/* Second feature body */
+section#insights {
+    background: #65b5c3 no-repeat center;
+    margin-top: 30px;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    section h2.features-heading {
+        font-weight: 800;
+        font-size: 30px;
+    }
+
+    .rectangle {
+        width: 140px;
+        height: 7px;
+        margin-top: 25px;
+    }
+}
+
+/* properties for two paragraphs in first section of features */
+p.features-big-data {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+/* callout properties */
+.callout {
+    color: #ffb301;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+h3.callout {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+h3.callout-not-first {
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    p.features-big-data{
+        text-align: left;
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 30px;
+        letter-spacing: -1px;
+    }
+
+    h3.callout{
+        font-size: 25px;
+        margin-top: 50px;
+        height:60px;
+    }
+}
+
+/* properties for titles and paragraphs in second section of features */
+section h4.insights {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: -1px;
+}
+
+section p.insights {
+    font-size: 14px;
+    margin-bottom: 2px;
+    text-align: left;
+    font-weight: 200;
+    letter-spacing: -1px;
+}
+
+section .insight-descr {
+    margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+    section h4.insights {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    section p.insights {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+
+    section .insight-descr {
+        margin-top: 50px;
+    }
+}
+
+/* properties for third section of features */
+
+section#longer-insights .features-heading {
+    margin-top: 10px;
+}
+
+.rect {
+    margin-bottom: 0;
+}
+
+#nw-rect {
+    background: #336e7b;
+    border-right-color: #9bbac0;
+}
+
+#ne-rect {
+    background: #4d8993;
+    border-left-color: #9bbac0;
+    border-right-color: #fff;
+    margin-top: -20px;
+}
+
+#sw-rect {
+    background: #76acb2;
+    border-right-color: #bed8da;
+    margin-top: -30px;
+}
+
+#se-rect {
+    background: #91bfc1;
+    border-right-color: #fff;
+    border-left-color: #bed8da;
+    margin-top: -20px;
+}
+
+h3.longer-title {
+    font-size: 16px;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+section#longer-insights .rectangle {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 992px) {
+    .rect {
+        border-right-style: solid;
+        border-right-width: 2px;
+        height: 200px;
+    }
+
+    #ne-rect {
+        margin-top: 0;
+    }
+
+    #sw-rect {
+        margin-top: 0;
+    }
+
+    #se-rect {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    section#longer-insights .features-heading {
+        margin-top: 50px;
+    }
+
+    section#longer-insights .rectangle {
+        margin-bottom: 50px;
+    }
+    
+    h3.longer-title {
+        font-size: 22px;
+    }
+}
+
+/* ---------- CONTACT PROPERTIES ---------- */
+
+section h2.contact-heading {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+section h3.contact-subheading {
+    font-size: 12px;
+    text-transform: none;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 50px;
+    color: white;
+}
+
+section#contact {
+    background: #1c5d6c no-repeat center;
+}
+section#contact .contact-heading{color:#fff}
+
+@media (min-width:768px) {
+    section h2.contact-heading {
+        font-size: 30px;
+        letter-spacing: -1px;
+    }
+}
+
+/* ---------- FOOTER PROPERTIES ---------- */
+
+footer {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    background-color: #174249;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+footer span.copyright {
+    line-height: 40px;
+    text-transform:none;
+}
+
+footer a {
+    color:#fff;
+}
+
+footer a:hover,
+footer a:focus,
+footer a:active,
+footer a.active {
+    color: #d1541a;
+}
+
+footer h3 {
+    padding-bottom: 10px;
+}
+
+#footer .col-md-1 {
+    text-align: center;
+}
+
+footer img {
+    width: 25px;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    footer {
+        font-size: 12px;
+    }
+
+    footer img {
+        width: auto;
+        height: auto;
+        margin-top: 5px;
+    }
+}
+
+
+/* JAN ADDITIONAL */
+
+.features-quote {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.features-attr {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.casestudy-cta {
+    padding-top: 20px;
+}
+
+.callout-desc {
+    text-align: center;
+    color: #1c5d6c;
+    font-size:16px;
+}
+
+.rect-maintext  {
+    color: #fff;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: rgba(0,0,0,0.5);
+}
+
+::selection {
+    text-shadow: none;
+    background: rgba(0,0,0,0.5);
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+body{
+    -webkit-tap-highlight-color: rgba(0,0,0,0.5);
+}
