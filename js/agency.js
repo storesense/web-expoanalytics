@@ -9,7 +9,7 @@ $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
+            scrollTop: $($anchor.attr('href')).offset().top - 84
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
@@ -17,8 +17,7 @@ $(function() {
 
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
-    target: '.navbar-fixed-top',
-    offset: 85
+    target: '.navbar-fixed-top'
 });
 
 // Closes the Responsive Menu on Menu Item Click
