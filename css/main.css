@@ -80,6 +80,13 @@ div.container.fixed-nav {
 /* ---------- NAVIGATION BAR PROPERTIES ---------- */
 
 .navbar-default {
+    top: 0;
+    height: 85px;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar-default {
     background-color: #65b5c3;
     border-bottom: 0;
 }
