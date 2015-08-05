@@ -332,9 +332,15 @@ section#longer-insights .features-heading {
     margin-top: 10px;
 }
 
+.parent-rect{
+    overflow: hidden;
+}
+
 .rect {
     border-right-style: solid;
     border-right-width: 2px;
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
 }
 
 #nw-rect {
@@ -370,11 +376,6 @@ section#longer-insights .rectangle {
     margin-bottom: 10px;
 }
 
-@media (min-width: 992px) {
-    .rect {
-        height: 200px;
-    }
-}
 
 @media (min-width: 768px) {
     section#longer-insights .rectangle {
