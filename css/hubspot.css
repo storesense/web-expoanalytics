@@ -59,7 +59,7 @@
 /* Contact form for free trial */
 .hbspt-form ul {
     list-style-type: none;
-    padding-left: 10px;
+    padding-left: 3px;
     margin-bottom: 0;
 }
 
@@ -75,18 +75,14 @@
 .hbspt-form .hs-form-booleancheckbox input[type="checkbox"] {
     clear: none;
     float: left;
+    height: auto;
 }
 
-.hbspt-form .hs-form-radio-display span {
-    clear: none;
-    float: left;
-    padding: 13px 12px 0 8px;
-}
-
+.hbspt-form .hs-form-radio-display span,
 .hbspt-form .hs-form-booleancheckbox span {
     clear: none;
     float: left;
-    padding: 14px 12px 0 8px;
+    padding: 0 12px 0 8px;
 }
 
 .hbspt-form .hs-form fieldset {
