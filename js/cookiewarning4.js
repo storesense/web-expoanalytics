@@ -41,7 +41,7 @@ function displayNotification(c_action) {
     var message = "<div class='cookie-warning affix-bottom' id='cookiewarning' data-spy='affix'>";
 
     // center vert
-    message = message + "<div style='text-align:center;margin:0px;padding:10px;width:auto;background:#1c5d6c;font-size:90%;'>";
+    message = message + "<div style='text-align:center;margin:0px;padding:10px;width:auto;font-size:11px;'>";
 
     // this is the message displayed to the user.
     message = message + "<span style='color:white;'>We use cookies to give you the best browsing experience. By continuing to use our website you are accepting our use of cookies as described in our <a href='/cookie_policy.html'>Cookie Policy</a>.</span><br>";
