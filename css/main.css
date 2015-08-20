@@ -322,6 +322,33 @@ section#case-study .casestudy-desc {
     font-size: 18px;
 }
 
+section#case-study div.get-whitepaper {
+    background-color: rgb(119, 204, 211);
+}
+
+section#case-study div.get-whitepaper img {
+    padding-top: 50px;
+    width: 80px;
+}
+
+section#case-study div.get-whitepaper a.btn-xl {
+    width: 250px;
+    background-color: #1c5d6c;
+    color: #fff;
+    padding: 20px 40px 20px 40px;
+}
+
+section#case-study div.get-whitepaper a.btn-xl:hover {
+    color: #000;
+}
+
+section#case-study div.get-whitepaper p {
+    text-align: center;
+    margin-top: 15px;
+    width: 200px;
+    font-size: 12px;
+}
+
 /* ----------- SECTION - KEY FEATURES */
 
 section#key-features .rectangle {
@@ -537,4 +564,10 @@ img::-moz-selection {
 
 body{
     -webkit-tap-highlight-color: rgba(0,0,0,0.5);
+}
+
+/* ------------- UTILITY RULES --------------- */
+
+.blue-text {
+    color: #1c5d6c;
 }
