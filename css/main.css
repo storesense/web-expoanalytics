@@ -292,6 +292,16 @@ h3.callout-not-first {
 section#case-study {
     background: #65b5c3 no-repeat center;
     color: #fff;
+    padding: 0;
+}
+
+section#case-study #case-study-text {
+    padding: 20px;
+    padding-top: 40px;
+}
+
+section#case-study .features-quote p {
+    font-size: 20px;
 }
 
 section#case-study h2.features-heading {
@@ -322,27 +332,28 @@ section#case-study .casestudy-desc {
     font-size: 18px;
 }
 
-section#case-study div.get-whitepaper {
+section#case-study div#get-whitepaper {
     background-color: rgb(119, 204, 211);
+    padding: 0 20px;
 }
 
-section#case-study div.get-whitepaper img {
+section#case-study div#get-whitepaper img {
     padding-top: 50px;
     width: 80px;
 }
 
-section#case-study div.get-whitepaper a.btn-xl {
+section#case-study div#get-whitepaper a.btn-xl {
     width: 250px;
     background-color: #1c5d6c;
     color: #fff;
     padding: 20px 40px 20px 40px;
 }
 
-section#case-study div.get-whitepaper a.btn-xl:hover {
+section#case-study div#get-whitepaper a.btn-xl:hover {
     color: #000;
 }
 
-section#case-study div.get-whitepaper p {
+section#case-study div#get-whitepaper p {
     text-align: center;
     margin-top: 15px;
     width: 200px;
@@ -496,12 +507,6 @@ div.cookie-warning {
 }
 
 /* ------------------ JAN ADDITIONAL ------------------- */
-
-.features-quote {
-    font-size: 18px;
-    font-weight: 400;
-}
-
 .features-attr {
     font-size: 16px;
     font-weight: 300;
@@ -524,10 +529,6 @@ div.cookie-warning {
 }
 
 @media (min-width: 768px) {
-    .features-quote {
-        font-size: 24px;
-    }
-
     .features-attr {
         font-size: 20px;
     }
@@ -570,4 +571,14 @@ body{
 
 .blue-text {
     color: #1c5d6c;
+}
+
+.equal-col-height {
+    display: table;
+}
+
+.equal-col-height [class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
 }
