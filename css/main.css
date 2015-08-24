@@ -296,12 +296,12 @@ section#case-study {
 }
 
 section#case-study #case-study-text {
-    padding: 20px;
+    padding: 18px;
     padding-top: 40px;
 }
 
 section#case-study .features-quote p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 section#case-study h2.features-heading {
@@ -329,7 +329,7 @@ section#case-study .casestudy-cta {
 }
 
 section#case-study .casestudy-desc {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 section#case-study div#get-whitepaper {
@@ -508,7 +508,7 @@ div.cookie-warning {
 
 /* ------------------ JAN ADDITIONAL ------------------- */
 .features-attr {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
 }
 
@@ -530,11 +530,11 @@ div.cookie-warning {
 
 @media (min-width: 768px) {
     .features-attr {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .callout-desc {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
