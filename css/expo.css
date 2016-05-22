@@ -37,9 +37,9 @@ header .intro-text .intro-description {
 
     header .intro-text .intro-heading {
         font-weight:700;
-        font-size:34px;
+        font-size:32px;
         line-height:35px;
-/*        margin-bottom:60px; */
+/     margin-bottom:10px; 
     }
     header .intro-text .intro-description {
         font-weight:350;
