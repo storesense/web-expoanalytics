@@ -6,24 +6,31 @@ header#heading-expo {
 }
 
 header .intro-text .intro-heading {
-    font-weight:700;
+    font-weight:600;
     font-size:25px;
     line-height:30px;
-    margin-bottom:25px;
+    margin-bottom:5px;
     letter-spacing: -1px;
+}
+
+header .intro-text .intro-description {
+    font-weight:350;
+    font-size:24px;
+    line-height:30px;
+    margin-bottom:35px;
 }
 
 @media (min-width:768px) {
     header .intro-text {
-        padding-top:250px;
-        padding-bottom:150px;
+        padding-top:200px;
+/*        padding-bottom:150px; */
     }
 
     header .intro-text .intro-heading {
-        font-weight:800;
+        font-weight:700;
         font-size:38px;
         line-height:35px;
-        margin-bottom:60px;
+/*        margin-bottom:60px; */
     }
 }
 

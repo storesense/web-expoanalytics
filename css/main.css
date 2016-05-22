@@ -370,6 +370,19 @@ section#whitepaper-link p {
 
 /* ----------- SECTION - KEY FEATURES */
 
+
+section#key-features .feature-mockup {
+    max-height: 250px;
+}
+
+section#key-features .feature-background {
+    background: #336e7b;
+}
+
+section#key-features .feature-images {
+    text-align: center;
+}
+
 section#key-features .rectangle {
     margin-bottom: 10px;
 }
@@ -448,15 +461,16 @@ section#contact {
 
 /* ---------- SECTION - AS SEEN ON ---------- */
 
-.pr_icon {
-    padding-right: 20px;
+section#as-seen-on.pr_icon {
+   
 }
 
-.pr_icons {
-    padding-top: 50px;
+section#as-seen-on.pr_icons {
+
 }
+
 section#as-seen-on img {
-    padding-top: 50px; padding-right: 50px;
+    padding-top: 50px; padding-right: 50px;     max-width: 250px;  
 }
 
 /* ---------- FOOTER PROPERTIES ---------- */
