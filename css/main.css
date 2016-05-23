@@ -280,6 +280,12 @@ h3.callout-not-first {
     margin-top: 20px;
 }
 
+.callout-desc {
+    text-align: center;
+    color: #1c5d6c;
+    font-size:16px;
+}
+
 @media (min-width: 768px) {
     p.features-big-data{
         text-align: left;
@@ -398,6 +404,7 @@ section#key-features .features-cta {
 section#key-features .feature-desc {
     text-align: left;
     font-size:16px;
+    color: #1c5d6c;
 }
 
 section#key-features .rectangle {
@@ -407,6 +414,8 @@ section#key-features .rectangle {
 section#key-features h4 {
     padding-top: 30px;
     padding-bottom: 20px;
+    color: #1c5d6c;
+    font-weight: 700;
 
 }
 
@@ -603,11 +612,6 @@ div.cookie-warning {
     margin-top: -4px;
 }
 
-.callout-desc {
-    text-align: center;
-    color: #1c5d6c;
-    font-size:16px;
-}
 
 .rect-maintext  {
     color: #fff;
