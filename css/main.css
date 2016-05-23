@@ -379,7 +379,7 @@ section#whitepaper-link p {
 
 
 section#key-features .feature-mockup {
-    max-height: 250px;
+    max-height: 300px;
 }
 
 section#key-features .feature-background {
@@ -388,11 +388,35 @@ section#key-features .feature-background {
 
 section#key-features .feature-images {
     text-align: center;
+    margin: 20px;
+}
+
+section#key-features .features-cta {
+    text-align: left;
+}
+
+section#key-features .feature-desc {
+    text-align: left;
+    font-size:16px;
 }
 
 section#key-features .rectangle {
     margin-bottom: 10px;
 }
+
+section#key-features h4 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+
+section#key-features p {
+
+    padding-bottom: 20px;
+
+}
+
+
 
 @media (min-width: 768px) {
     section#key-features .rectangle {
