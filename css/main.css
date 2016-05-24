@@ -50,6 +50,26 @@ h6 {
     padding: 15px 40px;
 }
 
+.btn-l {
+    color: #fff;
+    background-color: #d1541a;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px 27px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.btn-l:hover,
+.btn-l:focus,
+.btn-l:active,
+.btn-l.active {
+    color: #333;
+    background-color: #e7e7e7;
+    text-decoration: none;
+}
+
+
 .btn-xl:hover,
 .btn-xl:focus,
 .btn-xl:active,
@@ -78,6 +98,7 @@ div.container.fixed-nav {
         font-size:14px;
         padding:25px 70px;
     }
+
 
     div.container.fixed-nav {
         padding: 0;
