@@ -209,6 +209,13 @@ div.container.fixed-nav {
     }
 }
 
+@media (max-width: 480px) {
+    .landing-page-header ul{  
+       position: static;
+       width:100%;
+    }
+}
+
 /* ---------- HEADER PROPERTIES ---------- */
 
 header{
